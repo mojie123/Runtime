@@ -1,0 +1,22 @@
+{
+  "name": "PWRuntime",
+  "version": "0.1.0",
+  "summary": "A short description of PWRuntime.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Lpw/PWRuntime",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Lpw": "727626565@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/Lpw/PWRuntime.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "PWRuntime/Classes/**/*"
+}

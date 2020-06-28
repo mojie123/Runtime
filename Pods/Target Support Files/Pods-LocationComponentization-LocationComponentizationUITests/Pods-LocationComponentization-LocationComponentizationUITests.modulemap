@@ -1,0 +1,6 @@
+framework module Pods_LocationComponentization_LocationComponentizationUITests {
+  umbrella header "Pods-LocationComponentization-LocationComponentizationUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

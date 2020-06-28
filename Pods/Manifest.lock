@@ -1,0 +1,16 @@
+PODS:
+  - PWRuntime (0.1.0)
+
+DEPENDENCIES:
+  - PWRuntime (from `Lib/PWRuntime`)
+
+EXTERNAL SOURCES:
+  PWRuntime:
+    :path: Lib/PWRuntime
+
+SPEC CHECKSUMS:
+  PWRuntime: 1f7c9618676e03034bd39abb3d2752407c2647e4
+
+PODFILE CHECKSUM: 562c5811d6d0615d0c1c5974723ae720dc3e52c1
+
+COCOAPODS: 1.9.3

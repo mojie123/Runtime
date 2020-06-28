@@ -1,0 +1,6 @@
+framework module Pods_LocationComponentization {
+  umbrella header "Pods-LocationComponentization-umbrella.h"
+
+  export *
+  module * { export * }
+}
