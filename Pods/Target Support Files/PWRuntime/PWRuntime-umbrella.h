@@ -11,6 +11,7 @@
 #endif
 
 #import "PWModel.h"
+#import "PWViewController.h"
 
 FOUNDATION_EXPORT double PWRuntimeVersionNumber;
 FOUNDATION_EXPORT const unsigned char PWRuntimeVersionString[];

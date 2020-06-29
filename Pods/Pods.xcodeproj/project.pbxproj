@@ -8,16 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		09C07C58A9E6A1651965B7E9CC1D15F2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		21BEF1468D952D70B2C6C68FCEE4FEA2 /* PWModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 368FD4673C0B015F3C8E7A5337F8FE4E /* PWModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3EE72BD82D2129A3B5509C4189796A38 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		49F651CF5E16FAEF013E10C0D03AFDD0 /* PWRuntime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CA81959E11251D511D43245E1152F22E /* PWRuntime-dummy.m */; };
+		235E1F8D0042BC61F93381322348D409 /* PWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FEF0A842057474967E774541BF7F020 /* PWViewController.m */; };
+		55474A04FC68D5D506645D7CA31DBAF3 /* PWRuntime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 513BB7EC574708492468B864A3009985 /* PWRuntime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		560009B40625AA044123458521A36BCC /* Pods-LocationComponentizationTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CDB90367CEAFE50BA00384492DA74C8 /* Pods-LocationComponentizationTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5AB1E00957F53BC8A5C6A86513419E5E /* PWRuntime-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5DC8ADDB2FCE244FE13E160266142A5 /* PWRuntime-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5905A1376D9F03CA46FC4F83B7FB8E3A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		71A213505B9C88A2FC39DEE59292B633 /* Pods-LocationComponentization-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E03BB7E7A2BE7137B3B00F5AE63E5644 /* Pods-LocationComponentization-dummy.m */; };
 		7AACA8AEB2643B919016D4AC87371D35 /* Pods-LocationComponentizationTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C1B955FC631C07CDBB1251658F5FF9 /* Pods-LocationComponentizationTests-dummy.m */; };
-		A6B39A035FE1765109E2322AB89F4200 /* PWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E5B0E15B1EF28D949C869C60427B19FC /* PWModel.m */; };
+		91382A13792EFC2D86AC7B249499738A /* PWViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 516E579F14D97197157BE9CAD3E83BCD /* PWViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AC29C8AA22A3ED27A1CAB828EB1C3604 /* Pods-LocationComponentization-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DDB0B60D00E0023359FC07ED4BBD065 /* Pods-LocationComponentization-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CC3A0BE6FC2EABB59F71A6F866791573 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		D0A150704548AC74ECE0C077BF52FB62 /* PWModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 16D2E26762722D7BC86937A484777D36 /* PWModel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4611FC64BE3752C322BEB0821138F22 /* PWModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 322E178F80172F6390792D581D809FD4 /* PWModel.m */; };
+		E13CCEB57CCAC4D2F8317BF8E8C650CC /* PWRuntime-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B6AA8FA09B5D6D606A374DDA4A163CF /* PWRuntime-dummy.m */; };
 		E379F2B687F703FCD0D9925AE882FC26 /* Pods-LocationComponentization-LocationComponentizationUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A333AD8024F9DCDA25CE3DC0E5F5AB10 /* Pods-LocationComponentization-LocationComponentizationUITests-dummy.m */; };
 		E8A320DFDBC3E1D7C4C0B94EE70E0C48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		FE8357B0E787414FE455F49110E997DF /* Pods-LocationComponentization-LocationComponentizationUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C69C30430C9C659BBACD9ABDBF89DDE0 /* Pods-LocationComponentization-LocationComponentizationUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -49,48 +51,50 @@
 
 /* Begin PBXFileReference section */
 		0070421F3B938F76F26FDB37AA08025C /* Pods-LocationComponentization-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationComponentization-frameworks.sh"; sourceTree = "<group>"; };
-		03C3BBD6E59FB38332B86C89B4F5B870 /* PWRuntime-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PWRuntime-Info.plist"; sourceTree = "<group>"; };
-		0E5CFD480E8268172BFAA6924C981975 /* PWRuntime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PWRuntime.modulemap; sourceTree = "<group>"; };
+		14359ABA180061B5F95ED5D1009C8E8A /* PWRuntime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWRuntime-prefix.pch"; sourceTree = "<group>"; };
+		16D2E26762722D7BC86937A484777D36 /* PWModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PWModel.h; path = PWRuntime/Classes/PWModel.h; sourceTree = "<group>"; };
+		1886507B1B59C49014C330DAF4AD5903 /* PWRuntime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWRuntime.debug.xcconfig; sourceTree = "<group>"; };
+		1A8BE30BDA750C2F1DBA390C7A7CF925 /* PWRuntime.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PWRuntime.modulemap; sourceTree = "<group>"; };
+		1B6AA8FA09B5D6D606A374DDA4A163CF /* PWRuntime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PWRuntime-dummy.m"; sourceTree = "<group>"; };
+		1E7E38CE848E7C16CD48F622CFB9D03E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1FEF0A842057474967E774541BF7F020 /* PWViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PWViewController.m; path = PWRuntime/Classes/PWViewController.m; sourceTree = "<group>"; };
+		2225B20E45CB23428725AECB099F20F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		23A971D5CE26E4F5DAC8539E237F984F /* Pods-LocationComponentization-LocationComponentizationUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationComponentization-LocationComponentizationUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2AF165015C1C71801CACDFBD1409E557 /* Pods-LocationComponentizationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationComponentizationTests.release.xcconfig"; sourceTree = "<group>"; };
-		2E7E18A56F7D36DFEB8D272936AEC0F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		309D299C57ECCB7026461658BCD80AD2 /* Pods_LocationComponentization.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationComponentization.framework; path = "Pods-LocationComponentization.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		368FD4673C0B015F3C8E7A5337F8FE4E /* PWModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PWModel.h; path = PWRuntime/Classes/PWModel.h; sourceTree = "<group>"; };
+		322E178F80172F6390792D581D809FD4 /* PWModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PWModel.m; path = PWRuntime/Classes/PWModel.m; sourceTree = "<group>"; };
 		38EAF5E5531497CA7F5CCACCF5479235 /* Pods-LocationComponentization.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationComponentization.debug.xcconfig"; sourceTree = "<group>"; };
 		3A00D5C4479589E1BAF99C696F164CD7 /* Pods-LocationComponentization-LocationComponentizationUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationComponentization-LocationComponentizationUITests-Info.plist"; sourceTree = "<group>"; };
 		3B05216E7C899A47807C1DCDE34330E5 /* Pods-LocationComponentization.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationComponentization.modulemap"; sourceTree = "<group>"; };
 		3CDB90367CEAFE50BA00384492DA74C8 /* Pods-LocationComponentizationTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationComponentizationTests-umbrella.h"; sourceTree = "<group>"; };
 		46939FBACD06AA1764131969CA90B29C /* Pods-LocationComponentization-LocationComponentizationUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationComponentization-LocationComponentizationUITests.release.xcconfig"; sourceTree = "<group>"; };
-		4C48CBF5CC78F445E90348056DABBD94 /* PWRuntime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWRuntime.release.xcconfig; sourceTree = "<group>"; };
+		513BB7EC574708492468B864A3009985 /* PWRuntime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWRuntime-umbrella.h"; sourceTree = "<group>"; };
+		516E579F14D97197157BE9CAD3E83BCD /* PWViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PWViewController.h; path = PWRuntime/Classes/PWViewController.h; sourceTree = "<group>"; };
 		524A1B88089736E4FB2BD52086073077 /* PWRuntime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PWRuntime.framework; path = PWRuntime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		53F1371133CEA25D057E1335B4579805 /* Pods_LocationComponentization_LocationComponentizationUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationComponentization_LocationComponentizationUITests.framework; path = "Pods-LocationComponentization-LocationComponentizationUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E1FA227EFB5591B1425066835559A27 /* Pods-LocationComponentization-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationComponentization-acknowledgements.plist"; sourceTree = "<group>"; };
 		6610B014EFB5E626494F68D06FD54CA5 /* Pods-LocationComponentizationTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationComponentizationTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		69546BDE74AE4944DA6FF38E4850A0C3 /* Pods-LocationComponentizationTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationComponentizationTests.modulemap"; sourceTree = "<group>"; };
-		6BB90B73BEDA2560FCDB0FC90B4A9BD0 /* PWRuntime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PWRuntime.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6DDB0B60D00E0023359FC07ED4BBD065 /* Pods-LocationComponentization-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationComponentization-umbrella.h"; sourceTree = "<group>"; };
 		72397C594121345B5B1E250E13E7AD76 /* Pods-LocationComponentizationTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationComponentizationTests-Info.plist"; sourceTree = "<group>"; };
-		73BA6D122536747DCD91B3A8246F2A26 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		75FCA1AFB4A03EB769523C310963CF1A /* PWRuntime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWRuntime.debug.xcconfig; sourceTree = "<group>"; };
 		7D10C02297AA1E282CB33967941A2FF5 /* Pods-LocationComponentization-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationComponentization-Info.plist"; sourceTree = "<group>"; };
 		80C1B955FC631C07CDBB1251658F5FF9 /* Pods-LocationComponentizationTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationComponentizationTests-dummy.m"; sourceTree = "<group>"; };
 		8388894F27BB216597CE7A4BCE44D4D5 /* Pods-LocationComponentization-LocationComponentizationUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationComponentization-LocationComponentizationUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		8BF369398A8735004E95D7CFF277EBF8 /* Pods-LocationComponentizationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationComponentizationTests.debug.xcconfig"; sourceTree = "<group>"; };
+		91DC632038DA86581B7CBE3E989717B3 /* PWRuntime-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PWRuntime-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1427DAB2718B71783609DBCAD3EDBAB /* Pods-LocationComponentization-LocationComponentizationUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LocationComponentization-LocationComponentizationUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A333AD8024F9DCDA25CE3DC0E5F5AB10 /* Pods-LocationComponentization-LocationComponentizationUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationComponentization-LocationComponentizationUITests-dummy.m"; sourceTree = "<group>"; };
 		A3E0A2B2337B46EEE99D421CFF9B2F9B /* Pods-LocationComponentization.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LocationComponentization.release.xcconfig"; sourceTree = "<group>"; };
+		BB9396CB51245FA8FF12B80E04BEFD98 /* PWRuntime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PWRuntime.release.xcconfig; sourceTree = "<group>"; };
 		BF0CC825A8123CC193873568E8588242 /* Pods-LocationComponentization-LocationComponentizationUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LocationComponentization-LocationComponentizationUITests-frameworks.sh"; sourceTree = "<group>"; };
 		C69C30430C9C659BBACD9ABDBF89DDE0 /* Pods-LocationComponentization-LocationComponentizationUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LocationComponentization-LocationComponentizationUITests-umbrella.h"; sourceTree = "<group>"; };
 		C80A1B21B59ABB8F80C74A5A4A130CF6 /* Pods-LocationComponentizationTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationComponentizationTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C8FE6D4E15ABE032E0AFE7357E58E486 /* Pods-LocationComponentization-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LocationComponentization-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA81959E11251D511D43245E1152F22E /* PWRuntime-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PWRuntime-dummy.m"; sourceTree = "<group>"; };
-		CEDECB967A14731CB2ABEA52930AE390 /* PWRuntime-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWRuntime-prefix.pch"; sourceTree = "<group>"; };
+		DD61F92534B0CB47D3303EBB9A8587F0 /* PWRuntime.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = PWRuntime.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E03BB7E7A2BE7137B3B00F5AE63E5644 /* Pods-LocationComponentization-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LocationComponentization-dummy.m"; sourceTree = "<group>"; };
 		E2B669DA29CB99F2D71703F3EBACCEFA /* Pods-LocationComponentization-LocationComponentizationUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-LocationComponentization-LocationComponentizationUITests.modulemap"; sourceTree = "<group>"; };
-		E5B0E15B1EF28D949C869C60427B19FC /* PWModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PWModel.m; path = PWRuntime/Classes/PWModel.m; sourceTree = "<group>"; };
-		E5DC8ADDB2FCE244FE13E160266142A5 /* PWRuntime-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PWRuntime-umbrella.h"; sourceTree = "<group>"; };
 		EE24D8A08F6E2115AB42137037DAEA7F /* Pods_LocationComponentizationTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_LocationComponentizationTests.framework; path = "Pods-LocationComponentizationTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -103,11 +107,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		66EDEA2D527A76D16AD3E837C839CD36 /* Frameworks */ = {
+		2B024870D6F95C38AD773EFB99052C27 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3EE72BD82D2129A3B5509C4189796A38 /* Foundation.framework in Frameworks */,
+				5905A1376D9F03CA46FC4F83B7FB8E3A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +134,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		182CC96B1B36D58C420C40A8A283B528 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1A8BE30BDA750C2F1DBA390C7A7CF925 /* PWRuntime.modulemap */,
+				1B6AA8FA09B5D6D606A374DDA4A163CF /* PWRuntime-dummy.m */,
+				91DC632038DA86581B7CBE3E989717B3 /* PWRuntime-Info.plist */,
+				14359ABA180061B5F95ED5D1009C8E8A /* PWRuntime-prefix.pch */,
+				513BB7EC574708492468B864A3009985 /* PWRuntime-umbrella.h */,
+				1886507B1B59C49014C330DAF4AD5903 /* PWRuntime.debug.xcconfig */,
+				BB9396CB51245FA8FF12B80E04BEFD98 /* PWRuntime.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/PWRuntime";
+			sourceTree = "<group>";
+		};
 		20BCEB4B40CDEE09BEA0A968A76E4652 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -158,21 +177,6 @@
 			path = "Target Support Files/Pods-LocationComponentization";
 			sourceTree = "<group>";
 		};
-		58B9DA934F2E22AB6E046C988DADF7F1 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0E5CFD480E8268172BFAA6924C981975 /* PWRuntime.modulemap */,
-				CA81959E11251D511D43245E1152F22E /* PWRuntime-dummy.m */,
-				03C3BBD6E59FB38332B86C89B4F5B870 /* PWRuntime-Info.plist */,
-				CEDECB967A14731CB2ABEA52930AE390 /* PWRuntime-prefix.pch */,
-				E5DC8ADDB2FCE244FE13E160266142A5 /* PWRuntime-umbrella.h */,
-				75FCA1AFB4A03EB769523C310963CF1A /* PWRuntime.debug.xcconfig */,
-				4C48CBF5CC78F445E90348056DABBD94 /* PWRuntime.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/PWRuntime";
-			sourceTree = "<group>";
-		};
 		5913E4A62E70597E6014D43FA7CC25C3 /* Pods-LocationComponentization-LocationComponentizationUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,24 +192,6 @@
 			);
 			name = "Pods-LocationComponentization-LocationComponentizationUITests";
 			path = "Target Support Files/Pods-LocationComponentization-LocationComponentizationUITests";
-			sourceTree = "<group>";
-		};
-		7B5241ACFC29527549E4C951A4E9C6A7 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				2E7E18A56F7D36DFEB8D272936AEC0F6 /* LICENSE */,
-				6BB90B73BEDA2560FCDB0FC90B4A9BD0 /* PWRuntime.podspec */,
-				73BA6D122536747DCD91B3A8246F2A26 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		95E2A1B60BD5E6C473E1B01EF7353CEE /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				F4B1B499FB02E9881E5D377C9E2C9CC4 /* PWRuntime */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		B882AD24D59FDA07163C2FCF910284A5 /* Pods-LocationComponentizationTests */ = {
@@ -232,11 +218,35 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		CB7EF186B4813FF9C2E6B53B77181BAD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2225B20E45CB23428725AECB099F20F1 /* LICENSE */,
+				DD61F92534B0CB47D3303EBB9A8587F0 /* PWRuntime.podspec */,
+				1E7E38CE848E7C16CD48F622CFB9D03E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		CBF5EE678C1F54B03F700A80B1DF3B5B /* PWRuntime */ = {
+			isa = PBXGroup;
+			children = (
+				16D2E26762722D7BC86937A484777D36 /* PWModel.h */,
+				322E178F80172F6390792D581D809FD4 /* PWModel.m */,
+				516E579F14D97197157BE9CAD3E83BCD /* PWViewController.h */,
+				1FEF0A842057474967E774541BF7F020 /* PWViewController.m */,
+				CB7EF186B4813FF9C2E6B53B77181BAD /* Pod */,
+				182CC96B1B36D58C420C40A8A283B528 /* Support Files */,
+			);
+			name = PWRuntime;
+			path = ../Lib/PWRuntime;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				95E2A1B60BD5E6C473E1B01EF7353CEE /* Development Pods */,
+				E71B4FA50D7F2E2322FCFBC6EB47753E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				20BCEB4B40CDEE09BEA0A968A76E4652 /* Products */,
 				D04D07B043ABE1011A26A648B8DA8EFB /* Targets Support Files */,
@@ -261,16 +271,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F4B1B499FB02E9881E5D377C9E2C9CC4 /* PWRuntime */ = {
+		E71B4FA50D7F2E2322FCFBC6EB47753E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				368FD4673C0B015F3C8E7A5337F8FE4E /* PWModel.h */,
-				E5B0E15B1EF28D949C869C60427B19FC /* PWModel.m */,
-				7B5241ACFC29527549E4C951A4E9C6A7 /* Pod */,
-				58B9DA934F2E22AB6E046C988DADF7F1 /* Support Files */,
+				CBF5EE678C1F54B03F700A80B1DF3B5B /* PWRuntime */,
 			);
-			name = PWRuntime;
-			path = ../Lib/PWRuntime;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -292,12 +298,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		897E5FD9324B4B813AE139536A86E5F4 /* Headers */ = {
+		8CCB6C748578CBBD0934FBF7867ACAD0 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				21BEF1468D952D70B2C6C68FCEE4FEA2 /* PWModel.h in Headers */,
-				5AB1E00957F53BC8A5C6A86513419E5E /* PWRuntime-umbrella.h in Headers */,
+				D0A150704548AC74ECE0C077BF52FB62 /* PWModel.h in Headers */,
+				55474A04FC68D5D506645D7CA31DBAF3 /* PWRuntime-umbrella.h in Headers */,
+				91382A13792EFC2D86AC7B249499738A /* PWViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,12 +321,12 @@
 /* Begin PBXNativeTarget section */
 		49646E3C89BA61E1710B58EF7459D444 /* PWRuntime */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA2AD46F9DB619EA01DB0CD4CA66622F /* Build configuration list for PBXNativeTarget "PWRuntime" */;
+			buildConfigurationList = 7A5558A62F1150B18D7B856364120C99 /* Build configuration list for PBXNativeTarget "PWRuntime" */;
 			buildPhases = (
-				897E5FD9324B4B813AE139536A86E5F4 /* Headers */,
-				2EAC6387F52E09A81C667547BF0752EB /* Sources */,
-				66EDEA2D527A76D16AD3E837C839CD36 /* Frameworks */,
-				09F34CA7F8B5A11476C1B858EC1BC9EC /* Resources */,
+				8CCB6C748578CBBD0934FBF7867ACAD0 /* Headers */,
+				3D2E6D4C126EB1461A4C0FCFE8BA26CC /* Sources */,
+				2B024870D6F95C38AD773EFB99052C27 /* Frameworks */,
+				2C5C1DA2619AD1C87B5B05F10B5EA49E /* Resources */,
 			);
 			buildRules = (
 			);
@@ -418,7 +425,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		09F34CA7F8B5A11476C1B858EC1BC9EC /* Resources */ = {
+		2C5C1DA2619AD1C87B5B05F10B5EA49E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -457,12 +464,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2EAC6387F52E09A81C667547BF0752EB /* Sources */ = {
+		3D2E6D4C126EB1461A4C0FCFE8BA26CC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A6B39A035FE1765109E2322AB89F4200 /* PWModel.m in Sources */,
-				49F651CF5E16FAEF013E10C0D03AFDD0 /* PWRuntime-dummy.m in Sources */,
+				D4611FC64BE3752C322BEB0821138F22 /* PWModel.m in Sources */,
+				E13CCEB57CCAC4D2F8317BF8E8C650CC /* PWRuntime-dummy.m in Sources */,
+				235E1F8D0042BC61F93381322348D409 /* PWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -545,9 +553,9 @@
 			};
 			name = Release;
 		};
-		0C14B4549D7963553043A7ECA9DDBCD5 /* Debug */ = {
+		1909C23CADE0D748A741EACF7794D891 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 75FCA1AFB4A03EB769523C310963CF1A /* PWRuntime.debug.xcconfig */;
+			baseConfigurationReference = BB9396CB51245FA8FF12B80E04BEFD98 /* PWRuntime.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -574,10 +582,11 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		2A5BFC13D1AE32AAF0BED1DB1D1C0409 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -611,6 +620,40 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		415E2C1BAD32317626D5865496A7BE2D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1886507B1B59C49014C330DAF4AD5903 /* PWRuntime.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PWRuntime/PWRuntime-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PWRuntime/PWRuntime-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PWRuntime/PWRuntime.modulemap";
+				PRODUCT_MODULE_NAME = PWRuntime;
+				PRODUCT_NAME = PWRuntime;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -718,41 +761,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		B78E00370F7FCB895EC9A154758F5595 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C48CBF5CC78F445E90348056DABBD94 /* PWRuntime.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/PWRuntime/PWRuntime-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/PWRuntime/PWRuntime-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/PWRuntime/PWRuntime.modulemap";
-				PRODUCT_MODULE_NAME = PWRuntime;
-				PRODUCT_NAME = PWRuntime;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		BBCB9C5373DBEE1EFDCD1027E2F5D54E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -951,11 +959,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA2AD46F9DB619EA01DB0CD4CA66622F /* Build configuration list for PBXNativeTarget "PWRuntime" */ = {
+		7A5558A62F1150B18D7B856364120C99 /* Build configuration list for PBXNativeTarget "PWRuntime" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0C14B4549D7963553043A7ECA9DDBCD5 /* Debug */,
-				B78E00370F7FCB895EC9A154758F5595 /* Release */,
+				415E2C1BAD32317626D5865496A7BE2D /* Debug */,
+				1909C23CADE0D748A741EACF7794D891 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
